@@ -9,7 +9,7 @@
 }
 
 header {
-  background-color: #f0f0f0;
+  background-color: rgb(167, 39, 167);
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -37,4 +37,22 @@ header {
 
 .navigation a:hover {
   color: tomato;
+}
+
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(images/deve.jpg)no-repeat ;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.main h2{
+  
 }
